@@ -254,3 +254,23 @@ p{
 a{
     font-size: small;
 }
+@media (max-width:500px){
+    .Breez{
+        width: 25%;
+    }
+    .Breez span{
+    letter-spacing: 0px;
+    }
+    .Login{
+        gap: 0px;
+    }
+    .Login a{
+    margin-left: 20px;
+}
+.Login button{
+    margin-left: 20px;
+}
+.Login .fa-solid{
+    margin-left: 20px;
+}
+}
