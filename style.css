@@ -16,7 +16,7 @@ body{
 }
 .Breez span{
     letter-spacing: 5px;
-    font-size: 9px;
+    font-size: 12px;
 }
 .Login a{
     text-decoration: none;
@@ -31,7 +31,7 @@ body{
 }
 .Login a{
     color: black;
-    font-size: 8px;
+    font-size: 11px;
 }
 .Login button{
     background-color: darkorange;
@@ -40,7 +40,7 @@ body{
     font-size: small;
     width: 90px;
     border: none;
-    font-size: 7px;
+    font-size: 10px;
 }
 .Login .fa-solid{
     display: flex;
@@ -72,7 +72,7 @@ body{
 }
 
 .context h1{
-    font-size: 28px;
+    font-size: 31px;
     margin: 0;
     padding-right: 35px;
 }
@@ -80,12 +80,12 @@ body{
 .context p{
     color: black;
     width: 35%;
-    font-size: 9px;
-    padding-left: 30px;
+    font-size: 12px;
+    padding-left: 16px;
 }
 .part-2 a{
     margin-right: 85px;
-    font-size: 7px;
+    font-size: 9px;
 }
 .context button{
     align-self: flex-start;
@@ -97,8 +97,8 @@ body{
     width: 100px;
     border: none;
     margin-bottom: 20px;
-    margin-left: 220px;
-    font-size: 8px;
+    margin-left: 210px;
+    font-size: 10px;
 }
 .part-2 .image{
     display: flex;
@@ -127,15 +127,15 @@ body{
     font-size: 7px;
 }
 .header h1{
-    font-size: 27px;
+    font-size: 31px;
     text-align: center;
-    margin-top: 25px;
+    margin-top: 21px;
     margin-bottom: 0;
 }
 .header p{
     text-align: center;
     margin-bottom: 20px;
-    font-size: 8px;
+    font-size: 10px;
 }
 .one img{
     width: 200px;
@@ -159,12 +159,13 @@ body{
     text-align: center;
 }
 .image-section h3{
-    height: 30px;
-    font-size: 9px;
+    height: 35px;
+    font-size:12px;
     margin-bottom: 0;
 }
 .image-section p{
     margin-top: 0;
+    font-size: 10px;
 }
 .part-4{
     display: flex;
@@ -203,8 +204,9 @@ body{
 }
 .second-context h1{
     color: #45465A;
-    font-size: 27px;
+    font-size: 31px;
     margin-bottom: 0;
+    margin-left: 5px;
 }
 .second-context button{
     height: 30px;
@@ -213,10 +215,13 @@ body{
     color: white;
     border-radius: 15px;
     border: none;
-    font-size: 8px;
+    font-size: 10px;
+    margin-bottom: 40px;
+    margin-left: 10px;
 }
 .second-context p{
-    font-size: 8px;
+    font-size:11px;
+    margin-left: 10px;
 }
 .part-5{
     display: flex;
@@ -233,11 +238,12 @@ body{
     box-sizing: border-box;
 }
 .part-5 h1{
-    font-size: 27px;
+    font-size: 31px;
+    margin-bottom: 0;
 }
 .part-5 .first-context p{
     color: black;
-    font-size: 8px;
+    font-size: 12px;
 }
 .second{
     background-color: #EEF8F6;
