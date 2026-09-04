@@ -81,10 +81,10 @@ body{
     color: black;
     width: 35%;
     font-size: 9px;
-    padding-left: 40px;
+    padding-left: 30px;
 }
 .part-2 a{
-    margin-right: 45px;
+    margin-right: 85px;
     font-size: 7px;
 }
 .context button{
@@ -159,7 +159,7 @@ body{
     text-align: center;
 }
 .image-section h3{
-    height: 50px;
+    height: 30px;
     font-size: 9px;
     margin-bottom: 0;
 }
