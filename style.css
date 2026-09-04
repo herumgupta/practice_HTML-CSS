@@ -7,7 +7,7 @@ body{
 }
 .Breez{
     background-color: #E6EFFF;
-    width: 15%;
+    width: 10%;
     height: 40px;
     display: flex;
     justify-content: center;
@@ -55,25 +55,34 @@ body{
     height: 400px;
 }
 .context{
+    box-sizing: border-box;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 50%;
+    position: relative;
+    z-index: 2;
+    height: 430px;
+    background-color: white;
+    padding-bottom: 50px;
 }
 
 .context h1{
-    font-size: 40px;
+    font-size: 25px;
     margin: 0;
+    padding-right: 35px;
 }
 
 .context p{
     color: black;
-    width: 40%;
-    padding-left: 30px;
+    width: 35%;
+    font-size: small;
+    padding-left: 40px;
 }
 .part-2 a{
     margin-right: 45px;
+    font-size: x-small;
 }
 .context button{
     align-self: flex-start;
@@ -85,19 +94,19 @@ body{
     width: 100px;
     border: none;
     margin-bottom: 20px;
-    margin-left: 200px;
+    margin-left: 220px;
     font-size: small;
 }
 .part-2 .image{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: coral;
+    background-color: #EF9C8A;
     width: 50%;
 }
 .part-2 img{
-    width: 30%;
-    height: 50%;
+    width: 27%;
+    height: 55%;
 }
 .part-3{
     display: flex;
@@ -105,46 +114,57 @@ body{
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: skyblue;
+    background-color: #E6EFFF;
+    position: relative;
+    z-index: 0;
+    box-sizing: border-box;
 }
 .part-3 p{
     color: black;
+    font-size: x-small;
 }
 .header h1{
-    font-size: 40px;
+    font-size: 32px;
     text-align: center;
+    margin-top: 25px;
+    margin-bottom: 0;
 }
 .header p{
     text-align: center;
     margin-bottom: 20px;
+    font-size: x-small;
 }
 .one img{
     width: 200px;
-    height: 240px;
+    height: 210px;
 }
 .two img{
     width: 200px;
-    height: 240px;
+    height: 210px;
 }
 .three img{
     width: 200px;
-    height: 240px;
+    height: 210px;
 }
 .image-section{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 50px;
+    gap: 100px;
 }
 .image-section h3,.image-section p{
     text-align: center;
 }
 .image-section h3{
     height: 50px;
+    font-size: medium;
+    margin-bottom: 0;
 }
 .part-4{
     display: flex;
     height: 400px;
+    position: relative;
+    z-index: 0;
 }
 
 .First-image{
@@ -170,11 +190,15 @@ body{
     color: black;
 }
 .part-4 img{
-    width: 190px;
-    height: 250px;
+    /* width: 190px;
+    height: 250px; */
+    width: 27%;
+    height: 55%;
 }
 .second-context h1{
     color: #45465A;
+    font-size: 25px;
+    margin-bottom: 0;
 }
 .second-context button{
     height: 30px;
@@ -182,6 +206,10 @@ body{
     background-color: #45465A;
     color: white;
     border-radius: 15px;
+    border: none;
+}
+.second-context p{
+    font-size: x-small;
 }
 .part-5{
     display: flex;
@@ -201,13 +229,17 @@ body{
     color: black;
 }
 .second{
+    background-color: #EEF8F6;
+    position: relative;
+    z-index: 2;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 40px;
+    gap: 15px;
     width: 60%;
-    height: 100%;
-    background-color: #EEF8F6;
+    height: 320px;
+    margin-top: -20px;
+    
 }
 .part-5 span{
     color: gold;
@@ -217,7 +249,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 200px;
+    width: 170px;
     height: 250px;
     background-color: #45465A;
 }
@@ -226,7 +258,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 200px;
+    width: 170px;
     height: 250px;
     background-color: #45465A;
 }
