@@ -16,6 +16,7 @@ body{
 }
 .Breez span{
     letter-spacing: 5px;
+    font-size: 9px;
 }
 .Login a{
     text-decoration: none;
@@ -30,6 +31,7 @@ body{
 }
 .Login a{
     color: black;
+    font-size: 8px;
 }
 .Login button{
     background-color: darkorange;
@@ -38,6 +40,7 @@ body{
     font-size: small;
     width: 90px;
     border: none;
+    font-size: 7px;
 }
 .Login .fa-solid{
     display: flex;
@@ -69,7 +72,7 @@ body{
 }
 
 .context h1{
-    font-size: 25px;
+    font-size: 28px;
     margin: 0;
     padding-right: 35px;
 }
@@ -77,12 +80,12 @@ body{
 .context p{
     color: black;
     width: 35%;
-    font-size: small;
+    font-size: 9px;
     padding-left: 40px;
 }
 .part-2 a{
     margin-right: 45px;
-    font-size: x-small;
+    font-size: 7px;
 }
 .context button{
     align-self: flex-start;
@@ -95,7 +98,7 @@ body{
     border: none;
     margin-bottom: 20px;
     margin-left: 220px;
-    font-size: small;
+    font-size: 8px;
 }
 .part-2 .image{
     display: flex;
@@ -121,10 +124,10 @@ body{
 }
 .part-3 p{
     color: black;
-    font-size: x-small;
+    font-size: 7px;
 }
 .header h1{
-    font-size: 32px;
+    font-size: 27px;
     text-align: center;
     margin-top: 25px;
     margin-bottom: 0;
@@ -132,7 +135,7 @@ body{
 .header p{
     text-align: center;
     margin-bottom: 20px;
-    font-size: x-small;
+    font-size: 8px;
 }
 .one img{
     width: 200px;
@@ -157,7 +160,7 @@ body{
 }
 .image-section h3{
     height: 50px;
-    font-size: medium;
+    font-size: 9px;
     margin-bottom: 0;
 }
 .part-4{
@@ -197,7 +200,7 @@ body{
 }
 .second-context h1{
     color: #45465A;
-    font-size: 25px;
+    font-size: 27px;
     margin-bottom: 0;
 }
 .second-context button{
@@ -207,9 +210,10 @@ body{
     color: white;
     border-radius: 15px;
     border: none;
+    font-size: 8px;
 }
 .second-context p{
-    font-size: x-small;
+    font-size: 8px;
 }
 .part-5{
     display: flex;
@@ -225,8 +229,12 @@ body{
     padding-left: 150px;
     box-sizing: border-box;
 }
+.part-5 h1{
+    font-size: 27px;
+}
 .part-5 .first-context p{
     color: black;
+    font-size: 8px;
 }
 .second{
     background-color: #EEF8F6;
@@ -268,8 +276,22 @@ body{
 .part-5 .second h3,hr,p{
     color: white;
 }
+.part-5 .second h3{
+    font-size: 8px;
+}
 .part-5 .second h1{
     color: gold;
+}
+.part-5 .second p {
+    font-size: 7px;
+}
+
+.part-5 .second h1 {
+    font-size: 25px;
+}
+
+.part-5 .second button {
+    font-size: 7px;
 }
 .part-5 .second hr{
     width: 75%;
@@ -282,12 +304,6 @@ body{
     border: 2px solid;
     border-color: white;
     background-color: #45465A;
-}
-p{
-    font-size: small;
-}
-a{
-    font-size: small;
 }
 @media (max-width:500px){
     .Breez{
