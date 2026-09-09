@@ -836,6 +836,97 @@ body{
         margin: 0;
         gap: 15px;
     }
+    @media (max-width: 900px) {
+
+    /* Navbar */
+    .Breez span {
+        font-size: 13px;
+    }
+
+    .Login a {
+        font-size: 12px;
+    }
+
+    .Login button {
+        font-size: 11px;
+    }
+
+
+    /* Part 2 */
+    .context h1 {
+        font-size: 35px;
+    }
+
+    .context p {
+        font-size: 11px;
+    }
+
+    .part-2 a {
+        font-size: 11px;
+    }
+
+    .context button {
+        font-size: 11px;
+    }
+
+
+    /* Part 3 */
+    .header h1 {
+        font-size: 35px;
+    }
+
+    .header p {
+        font-size: 11px;
+    }
+
+    .image-section h3 {
+        font-size: 14px;
+    }
+
+    .image-section p {
+        font-size: 11px;
+    }
+
+
+    /* Part 4 */
+    .second-context h1 {
+        font-size: 35px;
+    }
+
+    .second-context p {
+        font-size: 11px;
+    }
+
+    .second-context button {
+        font-size: 11px;
+    }
+
+
+    /* Part 5 */
+    .part-5 h1 {
+        font-size: 35px;
+    }
+
+    .part-5 .first-context p {
+        font-size: 11px;
+    }
+
+    .part-5 .second h3 {
+        font-size: 8px;
+    }
+
+    .part-5 .second p {
+        font-size: 7px;
+    }
+
+    .part-5 .second h1 {
+        font-size: 23px;
+    }
+
+    .part-5 .second button {
+        font-size: 7px;
+    }
+}
 }
 
 /* =========================
@@ -845,6 +936,81 @@ body{
 @media (max-width: 600px) {
 
     /* NAVBAR */
+    @media (max-width: 600px) {
+
+    /* Navbar */
+    .Breez span {
+        font-size: 12px;
+    }
+
+    .Login a {
+        font-size: 11px;
+    }
+
+    .Login button {
+        font-size: 10px;
+    }
+
+
+    /* Part 2 */
+    .context h1 {
+        font-size: 30px;
+    }
+
+    .context p {
+        font-size: 10px;
+    }
+
+    .part-2 a {
+        font-size: 10px;
+    }
+
+    .context button {
+        font-size: 10px;
+    }
+
+
+    /* Part 3 */
+    .header h1 {
+        font-size: 30px;
+    }
+
+    .header p {
+        font-size: 10px;
+    }
+
+    .image-section h3 {
+        font-size: 13px;
+    }
+
+    .image-section p {
+        font-size: 10px;
+    }
+
+
+    /* Part 4 */
+    .second-context h1 {
+        font-size: 30px;
+    }
+
+    .second-context p {
+        font-size: 10px;
+    }
+
+    .second-context button {
+        font-size: 10px;
+    }
+
+
+    /* Part 5 */
+    .part-5 h1 {
+        font-size: 30px;
+    }
+
+    .part-5 .first-context p {
+        font-size: 10px;
+    }
+}
 
     .nav-bar {
         width: 100%;
