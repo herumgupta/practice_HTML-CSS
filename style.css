@@ -30,7 +30,6 @@ body{
     align-items: center;
     gap: 60px;
     height: 40px;
-    /* background-color: red; */
 }
 .Login a{
     color: black;
@@ -190,7 +189,6 @@ body{
     box-sizing: border-box;
     display: flex;
     justify-content: center;
-    /* align-items: center; */
     padding-left: 150px;
     margin-bottom: 10px;
     flex-direction: column;
@@ -201,8 +199,6 @@ body{
     color: black;
 }
 .part-4 img{
-    /* width: 190px;
-    height: 250px; */
     width: 100%;
     height: 100%;
 }
@@ -318,7 +314,8 @@ body{
     border-color: white;
     background-color: #45465A;
 }
-@media (max-width:900px){
+
+/* @media (max-width:900px){
     body{
         width: 100%;
     }
@@ -359,13 +356,8 @@ body{
 }
 .context h1{
     font-size: 35px;
-     /* margin: 0; */
     padding: 0;
     margin-bottom: 5px;
-    
-    /* margin: 0; */
-    /* margin-top: 15px; */
-    /* padding-right: 0px; */
 }
 
 .context p{
@@ -376,10 +368,8 @@ body{
     font-size: 11px;
     margin-left: 190px;
     margin-bottom: 15px;
-    /* padding-left: 16px; */
 }
 .part-2 a{
-    /* margin-right: 115px; */
      margin-left: 80px;
     padding: 0;
     font-size: 11px;
@@ -389,12 +379,11 @@ body{
      margin: 0;
     padding: 0;
     align-self: flex-start;
-    /* margin: 5px; */
     background-color: navy;
     color: white;
     border-radius: 15px;
-    height: 30px;
-    width: 100px;
+    height: 30px; */
+    /* width: 100px;
     border: none;
     margin-bottom: 10px;
     margin-left: 90px;
@@ -447,11 +436,7 @@ body{
     box-sizing: border-box;
     display: flex;
     justify-content: center;
-    /* align-items: center; */
-    /* padding-left: 150px;
-    margin-bottom: 10px; */
     flex-direction: column;
-    /* background-color: red; */
     width: 55%;
     height: 100%;
     margin-left: 0;
@@ -463,8 +448,6 @@ body{
     width: 100%;
     margin-bottom: 0;
     margin-left: 100px;
-    /* margin-left: 0px; */
-    /* margin-right: 155px; */
 }
 .second-context button{
     height: 30px;
@@ -511,7 +494,6 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    /* gap: 15px; */
     width: 60%;
     height: 320px;
     margin-top: -20px;
@@ -564,13 +546,11 @@ body{
 .context h1{
     margin-top: 10px;
     font-size: xx-large;
-    /* margin-right: 60px; */
 }
 .context p{
     color: black;
     width: 64%;
     font-size: small;
-    /* padding-left: 50px; */
 }
 .part-2 a{
     margin-right: 27px;
@@ -638,8 +618,6 @@ body{
     height: 350px;
     width: 100%;
     padding-left: 0;
-    /* margin-right: 500px;
-    margin-left: 0; */
     margin-left: 80px;
 }
 .part-4 h1{
@@ -663,7 +641,6 @@ body{
 .part-5 .first-context{
     height: 250px;
     width: 100%;
-    /* background-color: lightgray; */
     padding-left: 100px;
 }
 .part-5 img{
@@ -696,4 +673,383 @@ body{
     height: 250px;
     background-color: #45465A;
 }
+} */
+
+
+/* =========================
+   TABLET / SMALL LAPTOP
+   ========================= */
+
+@media (max-width: 900px) {
+
+    .nav-bar {
+        width: 100%;
+    }
+
+    .Breez {
+        width: 15%;
+    }
+
+    .Breez span {
+        letter-spacing: 2px;
+    }
+
+    .Login {
+        gap: 25px;
+    }
+
+
+    /* PART 2 */
+
+    .part-2 {
+        width: 100%;
+        height: 350px;
+    }
+
+    .context {
+        width: 50%;
+        height: 350px;
+        padding: 0 30px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .context h1 {
+        padding: 0;
+        margin: 0;
+    }
+
+    .context p {
+        width: 80%;
+        margin: 10px 0;
+        padding: 0;
+    }
+
+    .part-2 a {
+        margin: 0;
+    }
+
+    .context button {
+        align-self: center;
+        margin: 5px 0 20px 0;
+    }
+
+    .part-2 .image {
+        width: 50%;
+        height: 350px;
+    }
+
+    .part-2 img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+
+    /* PART 3 */
+
+    .part-3 {
+        height: auto;
+        min-height: 600px;
+        padding: 60px 30px;
+    }
+
+    .header h1 {
+        margin-top: 0;
+    }
+
+    .header p {
+        margin-bottom: 33px;
+    }
+
+    .image-section {
+        width: 100%;
+        gap: 50px;
+        justify-content: center;
+    }
+
+    .one,
+    .two,
+    .three {
+        text-align: center;
+    }
+
+
+    /* PART 4 */
+
+    .part-4 {
+        height: 350px;
+    }
+
+    .First-image {
+        width: 45%;
+        height: 100%;
+    }
+
+    .second-context {
+        width: 55%;
+        height: 100%;
+        padding: 30px 40px;
+        margin: 0;
+        justify-content: center;
+    }
+
+    .second-context h1 {
+        width: 100%;
+        margin: 0;
+    }
+
+    .second-context p {
+        margin: 10px 0;
+        width: 100%;
+    }
+
+    .second-context button {
+        margin: 15px 0 0 0;
+    }
+
+
+    /* PART 5 */
+
+    .part-5 {
+        height: 320px;
+    }
+
+    .first-context {
+        width: 40%;
+        height: 100%;
+        padding: 30px 40px;
+        justify-content: center;
+    }
+
+    .part-5 h1 {
+        margin: 0;
+    }
+
+    .part-5 .first-context p {
+        margin: 10px 0;
+    }
+
+    .second {
+        width: 60%;
+        height: 320px;
+        margin: 0;
+        gap: 15px;
+    }
+}
+
+/* =========================
+   MOBILE
+   ========================= */
+
+@media (max-width: 600px) {
+
+    /* NAVBAR */
+
+    .nav-bar {
+        width: 100%;
+    }
+
+    .Breez {
+        width: 25%;
+    }
+
+    .Breez span {
+        letter-spacing: 0;
+    }
+
+    .Login {
+        gap: 10px;
+    }
+
+    .Login a,
+    .Login button,
+    .Login .fa-solid {
+        margin-left: 0;
+    }
+
+    .Login button {
+        width: 80px;
+    }
+
+    .Login .fa-solid {
+        width: 50px;
+    }
+
+
+    /* PART 2 */
+
+    .part-2 {
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+    }
+
+    .context {
+        width: 100%;
+        height: 330px;
+        padding: 30px 20px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .context h1 {
+        margin: 0;
+    }
+
+    .context p {
+        width: 80%;
+        margin: 10px 0;
+        padding: 0;
+        text-align: center;
+    }
+
+    .part-2 a {
+        margin: 0;
+    }
+
+    .context button {
+        align-self: center;
+        margin: 5px 0 20px 0;
+    }
+
+    .part-2 .image {
+        width: 100%;
+        height: 370px;
+    }
+
+    .part-2 img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+
+    /* PART 3 */
+
+    .part-3 {
+        width: 100%;
+        height: auto;
+        min-height: 1300px;
+        padding: 60px 20px;
+    }
+
+    .header {
+        width: 100%;
+        text-align: center;
+    }
+
+    .header h1 {
+        margin: 0;
+    }
+
+    .header p {
+        margin-bottom: 30px;
+    }
+
+    .image-section {
+        flex-direction: column;
+        width: 100%;
+        gap: 40px;
+    }
+
+    .one,
+    .two,
+    .three {
+        width: 100%;
+        text-align: center;
+    }
+
+
+    /* PART 4 */
+
+    .part-4 {
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+    }
+
+    .part-4 .First-image {
+        width: 100%;
+        height: 370px;
+    }
+
+    .part-4 img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .part-4 .second-context {
+        width: 100%;
+        height: 350px;
+        padding: 40px 30px;
+        margin: 0;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .second-context h1 {
+        width: 100%;
+        margin: 0;
+        text-align: center;
+    }
+
+    .second-context p {
+        width: 90%;
+        margin: 10px 0;
+        text-align: center;
+    }
+
+    .second-context button {
+        margin: 15px 0 0 0;
+        align-self: center;
+    }
+
+
+    /* PART 5 */
+
+    .part-5 {
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+    }
+
+    .part-5 .first-context {
+        width: 100%;
+        height: 250px;
+        padding: 30px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .part-5 h1 {
+        margin: 0;
+    }
+
+    .part-5 .first-context p {
+        margin: 10px 0;
+    }
+
+    .second {
+        width: 100%;
+        /* height: auto; */
+        max-height: 350px;
+        margin: 0;
+        /* padding: 40px 20px; */
+        flex-direction: column;
+        /* gap: 20px; */
+    }
+    .part-5 .second img{
+        width: 100%;
+        height: 100%;
+    }
+
+    /* .part-5 .first-plan,
+    .part-5 .second-plan {
+        width: 200px;
+        height: 250px;
+        flex-shrink: 0;
+    } */
 }
