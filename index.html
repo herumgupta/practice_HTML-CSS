@@ -18,7 +18,7 @@
             <span>BREEZ</span>
         </div>
         <div class="Login">
-            <a href="contact.html"><i class="fa-regular fa-user"></i>       Login</a>
+            <a href="#loginPopup" id="LoginLink"><i class="fa-regular fa-user"></i> Login</a>
             <button>Free Trial</button>
             <i class="fa-solid fa-bars"></i>
         </div>
@@ -92,5 +92,40 @@
             <img src="./images/plan.png" alt="Plan Image">
         </div>
     </div>
+    <div class="login-popup" id="loginPopup">
+        <div class="login-box">
+            <h2>Login</h2>
+            <div>
+                <label for="name">Username</label>
+                <input type="text" id="name" placeholder="Enter username">
+            </div>
+            <br>
+            <div>
+                <label for="password">Password</label>
+            <input type="password" id="password" placeholder="Enter password">
+            </div>
+            <br>
+            <div class="Buttons">
+               <button class="loginButton" id="loginButton">Login</button>
+            <button class="clearButton" id="clearButton">Clear</button> 
+            </div>
+            <br>
+            <a href="#" class="forgotPassword">Forgot Password</a>
+            <br>
+            <a href="#" id="closeLink">Close</a>
+        </div>
+</div>
+<!-- <div class="forgot-password-popup" id="forgotPasswordPopup">
+
+    <h2>Forgot Password?</h2>
+    <p>Enter your email address</p>
+    <input type="email" placeholder="Enter email">
+
+    <button>Send</button>
+
+    <a href="#loginPopup">Back to Login</a>
+
+</div> -->
+<script src="script.js"></script>
 </body>
 </html>
