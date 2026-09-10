@@ -44,6 +44,9 @@ button {
 .Login a{
     text-decoration: none;
 }
+.Login a:hover i{
+    color: blue;
+}
 .Login{
     display: flex;
     justify-content: center;
@@ -660,6 +663,7 @@ button {
     .part-5 .first-context p {
         font-size: 10px;
     }
+
 
     .nav-bar {
         width: 100%;
