@@ -4,6 +4,31 @@
 .forgotpopup h2{
     text-align: center;
 }
+.login-popup .closeButton,.login-popup .clearButton,.login-popup .loginButton, .forgotpopup .closeButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 20px;
+    color: white;
+    background-color: skyblue;
+    border: none;
+    width: 65px;
+    height: 30px;
+}
+.forgotpopup .resetButton{
+    font-size: 11px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 20px;
+    color: white;
+    background-color: skyblue;
+    border: none;
+    width: 65px;
+    height: 30px;
+}
 .forgotpopupbutton{
     display: flex;
     justify-content: space-between;
