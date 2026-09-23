@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yoga-Page-Layout</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css">
+</head>
+<body>
+    <div class="nav-bar">
+        <div class="Breez">
+            <i class="fa-solid fa-wind"></i>
+            <span>BREEZ</span>
+        </div>
+        <div class="Login">
+            <a href="#loginPopup" id="LoginLink"><i class="fa-regular fa-user"></i> Login</a>
+            <button>Free Trial</button>
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </div>
+    <div class="part-2">
+        <div class="context">
+            <h1>Mindfulness <br> for Everyone,<br>Anywhere</h1>
+            <p>I'm a paragraph.Click here to add your <br> own text and edit me. I'm a great place <br>for you to tell a story and let your users <br>know a little more about you.</p>
+            <button>Try for free</button>
+            <a href=""><i class="fa-solid fa-record-vinyl"></i> Check out our Livestream classes</a>
+        </div>
+        <div class="image">
+            <img src="./images/Screenshot 2026-09-04 163044.png" alt="yoga-image">
+        </div>
+    </div>
+    <div class="part-3">
+        <div class="header">
+            <h1>The Breez Experience</h1>
+            <p>Enjoy guided mindfulness and meditation classes online.<br>Practice with us as much as you want on any digital device.</p>
+        </div>
+        <div class="image-section">
+            <div class="one">
+                <img src="./images/Screenshot 2026-09-04 165747.png" alt="image-1">
+                <h3>A Global Network <br>of Teachers</h3>
+                <p>I'm a paragraph. Click here to <br>add your own text and edit me. <br>I'm a great place for you to tell a <br>story and let your users know a <br>little more about you.</p>
+            </div>
+
+            <div class="two">
+                <img src="./images/Screenshot 2026-09-04 170007.png" alt="image-2">
+                <h3>Different Styles for All <br>Ages and Levels</h3>
+                <p>I'm a paragraph. Click here to <br>add your own text and edit me. <br>I'm a great place for you to tell a <br>story and let your users know a <br>little more about you.</p>
+            </div>
+            <div class="three">
+                <img src="./images/Screenshot 2026-09-04 170132.png" alt="image-3">
+                <h3>Livestream Classes</h3>
+                <p>I'm a paragraph. Click here to <br>add your own text and edit me. <br>I'm a great place for you to tell a <br>story and let your users know a <br>little more about you.</p>
+            </div>
+        </div>
+    </div>
+    <div class="part-4">
+        <div class="First-image">
+            <img src="./images/image.png" alt="Yoga-image">
+        </div>
+        <div class="second-context">
+            <h1>Meditate <br>Together Online</h1>
+            <p>Everything Is Better When Shared,<br>Including Meditation.</p>
+            <p>When you meditate with other people online,<br>you'll get the support and connection you need <br>to start practicing mindfulness and keep going. <br>A group can better support an individual's inward <br>journey and help develop a habit.</p>
+            <button>Book Now</button>
+        </div>
+    </div>
+    <div class="part-5">
+        <div class="first-context">
+            <h1>Our Plans</h1>
+            <p>Choose a plan and <br>get a <span>14-day trial for free.</span> <br>Enjoy unlimited access to our <br>online classes and workshops. <br>You can cancel any time.</p>
+        </div>
+        <div class="second">
+            <!-- <div class="first-plan">
+                <h3>MONTHLY PLAN</h3>
+                <hr>
+                <p>Cancel Anytime</p>
+                <h1>$29</h1>
+                <button>See More</button>
+            </div>
+            <div class="second-plan">
+                <h3>YEARLY PLAN</h3>
+                <hr>
+                <p>Limited Offer: 25% off</p>
+                <h1>$250</h1>
+                <button>See More</button>
+            </div> -->
+            <img src="./images/plan.png" alt="Plan Image">
+        </div>
+    </div>
+    <div class="login-popup" id="loginPopup">
+        <div class="login-box">
+            <h2>Login</h2>
+            <div>
+                <label for="name">Username</label>
+                <input type="text" id="name" placeholder="Enter username" autocomplete="off">
+            </div>
+            <br>
+            <div>
+                <label for="password">Password </label>
+            <input type="password" id="password" placeholder="Enter password" autocomplete="new-password">
+            </div>
+            <br>
+            <div class="Buttons">
+               <button class="loginButton" id="loginButton">Login</button>
+            <button class="clearButton" id="clearButton">Clear</button> 
+            </div>
+            <br>
+            <a href="#" class="forgotPassword" id="forgotPasswod">Forgot Password</a>
+            <br>
+            <br>
+            <button class="closeButton" id="closeButton">Close</button>
+        </div>
+</div>
+<div class="forgotpopup" id="forgotPopup">
+
+    <div class="forgotBox">
+
+        <h2>Forgot Password</h2>
+        <div class="forgotemail">
+            <label for="email">Email: </label>
+        <input type="email" id="email" placeholder="Enter your email">
+        </div>
+        
+        <div class="forgotpopupbutton">
+            <button class="resetButton" id="resetButton">Reset Password</button>
+
+            <button class="closeButton" id="forgotCloseButton">Close</button>
+        </div>
+        
+
+    </div>
+
+</div>
+<script src="script.js"></script>
+</body>
+</html>
